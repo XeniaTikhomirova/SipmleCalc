@@ -1,0 +1,14 @@
+/Users/kseniatikhomirova/Desktop/C#/bin/Debug/net8.0/C#
+/Users/kseniatikhomirova/Desktop/C#/bin/Debug/net8.0/C#.deps.json
+/Users/kseniatikhomirova/Desktop/C#/bin/Debug/net8.0/C#.runtimeconfig.json
+/Users/kseniatikhomirova/Desktop/C#/bin/Debug/net8.0/C#.dll
+/Users/kseniatikhomirova/Desktop/C#/bin/Debug/net8.0/C#.pdb
+/Users/kseniatikhomirova/Desktop/C#/obj/Debug/net8.0/C#.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kseniatikhomirova/Desktop/C#/obj/Debug/net8.0/C#.AssemblyInfoInputs.cache
+/Users/kseniatikhomirova/Desktop/C#/obj/Debug/net8.0/C#.AssemblyInfo.cs
+/Users/kseniatikhomirova/Desktop/C#/obj/Debug/net8.0/C#.csproj.CoreCompileInputs.cache
+/Users/kseniatikhomirova/Desktop/C#/obj/Debug/net8.0/C#.dll
+/Users/kseniatikhomirova/Desktop/C#/obj/Debug/net8.0/refint/C#.dll
+/Users/kseniatikhomirova/Desktop/C#/obj/Debug/net8.0/C#.pdb
+/Users/kseniatikhomirova/Desktop/C#/obj/Debug/net8.0/C#.genruntimeconfig.cache
+/Users/kseniatikhomirova/Desktop/C#/obj/Debug/net8.0/ref/C#.dll

@@ -7,7 +7,14 @@ double totalTaxesForAllOrder = 0;
 double deliveryPreis = 0;
 string message = "";
 
-void main(){
+object[,] data = {
+      {"apple", 10, 3.2},
+      {"avocado", 3, 10},
+      {"tofu", 10, 5},
+      {"coconuß", 2, 1.2}
+   };
+
+void Main(){
    // Hier commt Cover Letter:
    anschreiben();
 
@@ -16,11 +23,9 @@ void main(){
    Console.WriteLine("Name\t\tMenge\tPreis Stück + tUst\tUst pro Stück \t\tTotal + tUst\t\tTotal tUst");
    Console.WriteLine("");
 
-   //Items (name, amount, price):
-   menge("apple", 10, 3.2);
-   //menge("avocado", 3, 10);
-   //menge("tofu", 10, 5);
-   menge("coconuß", 2, 1.2);
+for (int i = 0; i < data.GetLength(0); i++ ) {
+   Makerow(i);
+};
 
    Console.WriteLine("");
    Console.WriteLine("Gesamt tUst: " + Math.Round(totalTaxesForAllOrder, 2) + "$");
@@ -33,6 +38,7 @@ void main(){
    double totalPrisePlusDelivery = totalSumForAllOrder + deliveryPreis;
 
    if(deliveryPreis > 0) {Console.WriteLine("Gesamt mit den Versandkosten: " + totalPrisePlusDelivery + "$");}
+
 }
 
 static void anschreiben(){
@@ -41,7 +47,6 @@ static void anschreiben(){
    Console.WriteLine(@"Hallo " + name + @",
 heute ist " + date + @"
 Hier ist Ihre Bestellung mit der Ausrechnung.
-
 Mit freundlihen Grüßen");
 }
 
@@ -77,6 +82,14 @@ void shipping(){
       deliveryPreis = 10 + Math.Round(10 * 0.19, 2);
       message = "Es nicht kostenslos, da Ihre Bestellung beträgt weniger als 100$.";
       }
-}
+};
 
-main();
+void Makerow(int rowNum){
+   menge(
+      Convert.ToString(data[rowNum, 0]),
+      Convert.ToInt32(data[rowNum, 1]),
+      Convert.ToDouble(data[rowNum, 2])
+   );
+};
+
+Main();
